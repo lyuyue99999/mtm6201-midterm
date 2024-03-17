@@ -1,0 +1,201 @@
+body {
+        font-family: "Open Sans", sans-serif;
+        color:#27282B;
+    }
+
+    button a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+/* desktop style */
+@media screen and (min-width: 760px) {
+    
+    
+    body {
+        width: 720px;
+        margin: auto;
+    }
+
+    .log {
+        margin-top: 10vw;
+    }
+
+    .log h1 {
+        font-weight: 600;
+    }
+
+    .log p {
+        color: #757E90;
+    }
+
+    /* user login input section style */
+    input {
+        border: none;
+    }
+
+    .name {
+        margin-top: 5vw;
+    }
+
+    .name p {
+        font-size: 1vw;
+        color: #757E90;
+    }
+
+    .password p {
+        font-size: 1vw;
+        color: #757E90;
+    }
+
+    .eicon {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .eicon img {
+        width: 2vw;
+        height: auto;
+    }
+
+    /* Whether or not to remember the password */
+    .rf {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rf button {
+        border: none;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    .rf button:hover::before {
+        content: "\2022";
+        display: inline-block;
+        margin-right: 0.5vw;
+        font-size: 2vw;
+        color: #0D65D8;
+    }
+
+    /* login button style */
+    .button2 {
+        margin-top: 5vw;
+        text-align: center;
+    }
+
+    .button2 button {
+        border: none;
+        text-decoration: none;
+        background-color: white;
+        font-weight: 600;
+        width: 30vw;
+        height: 4vw;
+        border-radius: 1vw;
+        color: #27282B;
+    }
+
+    .button2 button:hover {
+        color: white;
+        background-color: #0D65D8;
+    }
+    
+
+}
+
+/* phone size style */
+@media screen and (max-width: 760px) {
+    
+    
+    body {
+        width: 320px;
+        margin: auto;
+    }
+
+    .log {
+        margin-top: 10vw;
+    }
+
+    .log h1 {
+        font-weight: 600;
+    }
+
+    .log p {
+        color: #757E90;
+    }
+
+    /* user login input section style */
+    input {
+        border: none;
+    }
+
+    .name {
+        margin-top: 5vw;
+    }
+
+    .name p {
+        font-size: 3vw;
+        color: #757E90;
+    }
+
+    .password p {
+        font-size: 3vw;
+        color: #757E90;
+    }
+
+    .eicon {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .eicon img {
+        width: 5vw;
+        height: auto;
+    }
+
+    /* Whether or not to remember the password */
+    .rf {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rf button {
+        border: none;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    .rf button:hover::before {
+        content: "\2022";
+        display: inline-block;
+        margin-right: 0.5vw;
+        font-size: 5vw;
+        color: #0D65D8;
+    }
+
+    /* login button style */
+    .button2 {
+        margin-top: 5vw;
+        text-align: center;
+    }
+
+    .button2 button {
+        border: none;
+        text-decoration: none;
+        background-color: white;
+        font-weight: 600;
+        width: 40vw;
+        height: 10vw;
+        border-radius: 1vw;
+    }
+
+    .button2 button:hover {
+        color: white;
+        background-color: #0D65D8;
+    }
+
+    
+
+
+    
+}
